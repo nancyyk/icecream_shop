@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f0;
+    background-image: url('image/bg1.webp'); 
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
+    background-size: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+}
+
+h2.title {
+    text-align: center;
+    color: #cc3366;
+    margin-bottom: 30px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+label .required {
+    color: red;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+    outline: none;
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.login-link a {
+    color: #cc3366;
+    text-decoration: none;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button.register-btn {
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 1px solid #cc3366;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #cc3366;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.register-btn:hover {
+    background-color: #cc3366;
+    color: white;
+}
